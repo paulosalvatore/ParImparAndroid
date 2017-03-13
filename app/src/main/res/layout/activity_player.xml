@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.paulo.parimparandroid.PlayerActivity">
+
+	<TextView
+		style="@style/tvBasico"
+		android:text="@string/nome"/>
+
+	<EditText
+		android:id="@+id/etNome"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/insiraNome"/>
+
+	<TextView
+		style="@style/tvBasico"
+		android:text="@string/jogada"/>
+
+	<RadioGroup
+		android:id="@+id/rgParImpar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:checkedButton="@+id/rbPar">
+
+		<RadioButton
+			android:id="@+id/rbPar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:text="@string/par"/>
+
+		<RadioButton
+			android:id="@+id/rbImpar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:text="@string/impar"/>
+
+	</RadioGroup>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="jogar"
+		android:text="@string/jogar"/>
+
+</LinearLayout>

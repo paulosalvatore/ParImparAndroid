@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.paulo.parimparandroid.GameActivity">
+
+	<TextView
+		android:id="@+id/tvNome"
+		style="@style/tvBasico"
+		android:text="@string/nome"/>
+
+	<TextView
+		android:id="@+id/tvSuaJogada"
+		style="@style/tvBasico"
+		android:layout_marginTop="20dp"
+		android:text="@string/jogada"
+		android:textAlignment="center"/>
+
+	<TextView
+		style="@style/tvBasico"
+		android:layout_marginTop="10dp"
+		android:text="@string/versus"
+		android:textAlignment="center"/>
+
+	<TextView
+		android:id="@+id/tvJogadaInimigo"
+		style="@style/tvBasico"
+		android:layout_marginTop="10dp"
+		android:text="@string/jogadaInimigo"
+		android:textAlignment="center"/>
+
+	<TextView
+		style="@style/tvBasico"
+		android:layout_marginTop="20dp"
+		android:text="@string/numeroSorteado"
+		android:textAlignment="center"/>
+
+	<TextView
+		android:id="@+id/tvNumeroSorteado"
+		style="@style/tvBasico"
+		android:text="@string/numeroSorteado"
+		android:textAlignment="center"/>
+
+	<TextView
+		style="@style/tvBasico"
+		android:layout_marginTop="20dp"
+		android:text="@string/resultadoJogo"
+		android:textAlignment="center"/>
+
+	<TextView
+		android:id="@+id/tvResultadoJogo"
+		style="@style/tvBasico"
+		android:text="@string/resultadoJogo"
+		android:textAlignment="center"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:onClick="jogarNovamente"
+		android:text="@string/jogarNovamente"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="alterarDados"
+		android:text="@string/alterarDados"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+	<string name="app_name">Par ou Ímpar - Jogo</string>
+	<string name="nome">Nome</string>
+	<string name="insiraNome">Insira seu Nome</string>
+	<string name="jogar">Jogar</string>
+	<string name="par">Par</string>
+	<string name="impar">Ímpar</string>
+	<string name="jogada">Sua Jogada</string>
+	<string name="jogadaInimigo">Jogada Inimigo</string>
+	<string name="versus">X</string>
+	<string name="resultadoJogo">Resultado do Jogo:</string>
+	<string name="jogarNovamente">Jogar Novamente</string>
+	<string name="alterarDados">Alterar Dados</string>
+	<string name="numeroSorteado">Número Sorteado:</string>
+</resources>
